@@ -40,3 +40,5 @@ npm run serve
 220808:
 Jag gjorde en fork av repot. Ska använda [denna admin template](https://github.com/tailwindtoolbox/Minimal-Admin-Template)
 
+[Installerar fontawesome](https://fontawesome.com/docs/web/use-with/vue/).
+Det första kommandot (svg-core) lägger in `"@fortawesome/fontawesome-svg-core": "^6.1.2",` under dependencies i package.json
