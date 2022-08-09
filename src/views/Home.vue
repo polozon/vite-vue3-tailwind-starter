@@ -3,6 +3,7 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
 </script>
 
 <template>
+  <a class="underline" href="https://tailwindtoolbox.github.io/Minimal-Admin-Template/">original</a>
   <div class="flex h-screen bg-gray-100 font-sans">
     <!-- Side bar-->
     <div
@@ -37,8 +38,11 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
               hover:text-indigo-400
             "
           >
-            <i class="fas fa-home fa-fw mr-3"></i
-            ><span class="w-full inline-block pb-1 md:pb-0 text-sm">Home</span>
+
+            <!--<i class="fas fa-home fa-fw mr-3"></i>-->
+            <!-- <font-awesome-icon icon="fa-solid fa-home" class="fas fa-fw mr-3"/> -->
+            <font-awesome-icon icon="fa-solid fa-home"/>
+            <span class="w-full inline-block pb-1 md:pb-0 text-sm">Home</span>
           </a>
         </li>
         <li class="my-2 md:my-0">

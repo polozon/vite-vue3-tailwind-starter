@@ -16,7 +16,8 @@ setInterval(() => {
           @click="counter = 0"
           class="text-3xl font-bold leading-tight text-gray-900"
         >
-          {{ $route.meta.title }} / {{ counter }}
+        <font-awesome-icon icon="fa-solid fa-user-secret"/>
+        {{ $route.meta.title }} / {{ counter }}
         </h1>
       </div>
     </header>
