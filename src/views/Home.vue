@@ -2,6 +2,7 @@
 import ButtonRepo from "@/components/ButtonRepo.vue";
 import AccountMenu from "@/components/AccountMenu.vue";
 import UserButton from "@/components/UserButton.vue";
+import MenuComponent from "@/components/Menu/MenuComponent.vue";
 </script>
 
 <template>
@@ -365,6 +366,7 @@ import UserButton from "@/components/UserButton.vue";
 
       <!--Graph Content -->
       <div id="main-content" class="w-full flex-1">
+        <MenuComponent />
         <div class="flex flex-1 flex-wrap">
           <div class="w-full xl:w-2/3 p-6 xl:max-w-6xl">
             <!--"Container" for the graphs"-->
