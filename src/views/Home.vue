@@ -1,6 +1,7 @@
 <script setup>
 import ButtonRepo from "@/components/ButtonRepo.vue";
 import AccountMenu from "@/components/AccountMenu.vue";
+import UserButton from "@/components/UserButton.vue";
 </script>
 
 <template>
@@ -222,7 +223,8 @@ import AccountMenu from "@/components/AccountMenu.vue";
             <!--Menu-->
 
             <div class="flex relative inline-block pr-6">
-              <AccountMenu/>
+              <!-- <AccountMenu/> -->
+              <UserButton/>
             </div>
 
             <!-- / Menu -->
