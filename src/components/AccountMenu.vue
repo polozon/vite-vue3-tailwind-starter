@@ -12,7 +12,7 @@
         </g>
       </svg>
     </button>
-    <div id="userMenu" class="
+    <div ref="userMenu" class="
                     bg-white
                     nunito
                     rounded
@@ -67,3 +67,15 @@
     </div>
   </div>
 </template>
+
+<script>
+/*export default {
+  //...
+  methods: {
+    showMyDiv() {
+      console.log(this.$refs.myDiv);
+    },
+  },
+  //...
+};*/
+</script>
