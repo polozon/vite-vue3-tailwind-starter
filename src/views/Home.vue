@@ -59,8 +59,9 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
               hover:text-indigo-400
             "
           >
-            <i class="fas fa-tasks fa-fw mr-3"></i
-            ><span class="w-full inline-block pb-1 md:pb-0 text-sm">Tasks</span>
+            <font-awesome-icon icon="fa-solid fa-tasks"/>
+            <!-- <i class="fas fa-tasks fa-fw mr-3"></i> -->
+            <span class="w-full inline-block pb-1 md:pb-0 text-sm">Tasks</span>
           </a>
         </li>
         <li class="my-2 md:my-0">
@@ -77,8 +78,9 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
               hover:text-indigo-400
             "
           >
-            <i class="fa fa-envelope fa-fw mr-3"></i
-            ><span class="w-full inline-block pb-1 md:pb-0 text-sm"
+            <font-awesome-icon icon="fa-solid fa-envelope"/>
+            <!-- <i class="fa fa-envelope fa-fw mr-3"></i> -->
+            <span class="w-full inline-block pb-1 md:pb-0 text-sm"
               >Messages</span
             >
           </a>
@@ -97,8 +99,9 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
               hover:text-indigo-400
             "
           >
-            <i class="fas fa-chart-area fa-fw mr-3 text-indigo-400"></i
-            ><span class="w-full inline-block pb-1 md:pb-0 text-sm"
+            <font-awesome-icon icon="fa-solid fa-chart-area"/>
+            <!-- <i class="fas fa-chart-area fa-fw mr-3 text-indigo-400"></i> -->
+            <span class="w-full inline-block pb-1 md:pb-0 text-sm"
               >Analytics</span
             >
           </a>
@@ -117,8 +120,9 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
               hover:text-indigo-400
             "
           >
-            <i class="fa fa-wallet fa-fw mr-3"></i
-            ><span class="w-full inline-block pb-1 md:pb-0 text-sm"
+            <font-awesome-icon icon="fa-solid fa-wallet"/>
+            <!-- <i class="fa fa-wallet fa-fw mr-3"></i> -->
+            <span class="w-full inline-block pb-1 md:pb-0 text-sm"
               >Payments</span
             >
           </a>
