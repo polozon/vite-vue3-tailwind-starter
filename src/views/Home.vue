@@ -6,7 +6,7 @@ import BarChart from "@/components/BarChart.vue";
 </script>
 
 <template>
-  <a class="underline" href="https://tailwindtoolbox.github.io/Minimal-Admin-Template/">original</a>
+  
   <div class="flex h-screen bg-gray-100 font-sans">
     <!-- Side bar-->
     <div
@@ -50,7 +50,7 @@ import BarChart from "@/components/BarChart.vue";
         </li>
         <li class="my-2 md:my-0">
           <a
-            href="#"
+            href="https://tailwindtoolbox.github.io/Minimal-Admin-Template/"
             class="
               block
               py-1
@@ -62,14 +62,15 @@ import BarChart from "@/components/BarChart.vue";
               hover:text-indigo-400
             "
           >
-            <font-awesome-icon icon="fa-solid fa-tasks" class="fa-fw mr-3"/>
+            <font-awesome-icon icon="fa-solid fa-baby" class="fa-fw mr-3"/>
             <!-- <i class="fas fa-tasks fa-fw mr-3"></i> -->
-            <span class="w-full inline-block pb-1 md:pb-0 text-sm">Tasks</span>
+            <span class="w-full inline-block pb-1 md:pb-0 text-sm">Original</span>
           </a>
         </li>
+        
         <li class="my-2 md:my-0">
           <a
-            href="#"
+            href="/about"
             class="
               block
               py-1
@@ -81,57 +82,17 @@ import BarChart from "@/components/BarChart.vue";
               hover:text-indigo-400
             "
           >
-            <font-awesome-icon icon="fa-solid fa-envelope" class="fa-fw mr-3"/>
-            <!-- <i class="fa fa-envelope fa-fw mr-3"></i> -->
+            <font-awesome-icon icon="fa-solid fa-circle-question" class="fa-fw mr-3"/>
             <span class="w-full inline-block pb-1 md:pb-0 text-sm"
-              >Messages</span
-            >
-          </a>
-        </li>
-        <li class="my-2 md:my-0">
-          <a
-            href="#"
-            class="
-              block
-              py-1
-              md:py-3
-              pl-1
-              align-middle
-              text-gray-600
-              no-underline
-              hover:text-indigo-400
-            "
-          >
-            <font-awesome-icon icon="fa-solid fa-chart-area" class="fa-fw mr-3"/>
-            <!-- <i class="fas fa-chart-area fa-fw mr-3 text-indigo-400"></i> -->
-            <span class="w-full inline-block pb-1 md:pb-0 text-sm"
-              >Analytics</span
-            >
-          </a>
-        </li>
-        <li class="my-2 md:my-0">
-          <a
-            href="#"
-            class="
-              block
-              py-1
-              md:py-3
-              pl-1
-              align-middle
-              text-gray-600
-              no-underline
-              hover:text-indigo-400
-            "
-          >
-            <font-awesome-icon icon="fa-solid fa-wallet" class="fa-fw mr-3"/>
-            <!-- <i class="fa fa-wallet fa-fw mr-3"></i> -->
-            <span class="w-full inline-block pb-1 md:pb-0 text-sm"
-              >Payments</span
+              >About</span
             >
           </a>
         </li>
       </ul>
     </div>
+
+    <!-- ================= SLUT PÅ SIDEBAR =============== -->
+
 
     <div class="flex flex-row flex-wrap flex-1 flex-grow content-start pl-16">
       <div class="h-40 lg:h-20 w-full flex flex-wrap">
