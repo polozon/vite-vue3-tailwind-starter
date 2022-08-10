@@ -223,8 +223,7 @@ import UserButton from "@/components/UserButton.vue";
             <!--Menu-->
 
             <div class="flex relative inline-block pr-6">
-              <!-- <AccountMenu/> -->
-              <UserButton/>
+              <UserButton @logout="userLogout" />
             </div>
 
             <!-- / Menu -->
@@ -471,3 +470,13 @@ import UserButton from "@/components/UserButton.vue";
     </div>
   </div>
 </template>
+
+<script>
+export default {
+    methods: {
+      userLogout() {
+        console.log("User logout");
+      }
+    }
+}
+</script>

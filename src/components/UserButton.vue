@@ -36,6 +36,7 @@
                   active ? 'bg-violet-500 text-white' : 'text-gray-900',
                   'group flex w-full items-center rounded-md px-2 py-2 text-sm',
                 ]"
+                @click="logout()"
               >
             Logout
           </button>
@@ -45,6 +46,20 @@
   </div>
 </template>
 
-<script setup>
-  import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+<script>
+import { Menu, MenuButton, MenuItems, MenuItem } from '@headlessui/vue'
+
+export default {
+    components: {
+        Menu,
+        MenuButton,
+        MenuItems,
+        MenuItem
+    },
+    methods: {
+      logout() {
+        this.$emit('logout')
+      }
+    }
+}
 </script>
