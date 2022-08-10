@@ -2,6 +2,7 @@
 import ButtonRepo from "@/components/ButtonRepo.vue";
 import AccountMenu from "@/components/AccountMenu.vue";
 import UserButton from "@/components/UserButton.vue";
+import BarChart from "@/components/BarChart.vue";
 </script>
 
 <template>
@@ -373,9 +374,12 @@ import UserButton from "@/components/UserButton.vue";
                 <h5 class="font-bold text-black">Graph</h5>
               </div>
               <div class="p-5">
-                <div class="ct-chart ct-golden-section" id="chart1"></div>
+                <BarChart height="200" />
+                <!-- <div class="ct-chart ct-golden-section" id="chart1"></div> -->
               </div>
               <!--/Graph Card-->
+
+              <!-- <BarChart class="max-h-40"/> -->
 
               <!--Table Card-->
               <div class="p-3">
