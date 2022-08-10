@@ -1,5 +1,5 @@
 <template>
-    <button>
+    <button @click="$parent.toggle()">
         <slot />
     </button>
 </template>

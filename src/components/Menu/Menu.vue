@@ -1,7 +1,6 @@
 <template>
     <div>
         <slot />
-        [Open = {{isOpen}}]
     </div>
 </template>
 
