@@ -254,7 +254,7 @@ import BarChart from "@/components/BarChart.vue";
             <div class="flex flex-col items-center">
               <div class="flex-shrink pr-4">
                 <div class="rounded-full p-3 bg-gray-300">
-                  <i class="fas fa-users fa-fw fa-inverse text-indigo-500"></i>
+                  <font-awesome-icon icon="fa-solid fa-user-group" class="fa-fw fa-inverse text-indigo-500"/>
                 </div>
               </div>
               <div class="flex-1">
@@ -284,9 +284,7 @@ import BarChart from "@/components/BarChart.vue";
             <div class="flex flex-col items-center">
               <div class="flex-shrink pr-4">
                 <div class="rounded-full p-3 bg-gray-300">
-                  <i
-                    class="fas fa-user-plus fa-fw fa-inverse text-indigo-500"
-                  ></i>
+                  <font-awesome-icon icon="fa-solid fa-user-plus" class="fa-fw fa-inverse text-indigo-500"/>
                 </div>
               </div>
               <div class="flex-1">
@@ -316,7 +314,7 @@ import BarChart from "@/components/BarChart.vue";
             <div class="flex flex-col items-center">
               <div class="flex-shrink pr-4">
                 <div class="rounded-full p-3 bg-gray-300">
-                  <i class="fas fa-server fa-fw fa-inverse text-indigo-500"></i>
+                  <font-awesome-icon icon="fa-solid fa-server" class="fa-fw fa-inverse text-indigo-500"/>
                 </div>
               </div>
               <div class="flex-1">

@@ -18,6 +18,9 @@ import { faTasks } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faChartArea } from '@fortawesome/free-solid-svg-icons'
 import { faWallet } from '@fortawesome/free-solid-svg-icons'
+import { faUserGroup } from '@fortawesome/free-solid-svg-icons'
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
+import { faServer } from '@fortawesome/free-solid-svg-icons'
 import { faBaby } from '@fortawesome/free-solid-svg-icons'
 import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
 
@@ -28,6 +31,9 @@ library.add(faTasks)
 library.add(faEnvelope)
 library.add(faChartArea)
 library.add(faWallet)
+library.add(faUserGroup)
+library.add(faUserPlus)
+library.add(faServer)
 library.add(faBaby)
 library.add(faCircleQuestion)
 
