@@ -17,6 +17,7 @@ import { faHome } from '@fortawesome/free-solid-svg-icons'
 import { faTasks } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faChartArea } from '@fortawesome/free-solid-svg-icons'
+import { faWallet } from '@fortawesome/free-solid-svg-icons'
 import { faBaby } from '@fortawesome/free-solid-svg-icons'
 import { faCircleQuestion } from '@fortawesome/free-solid-svg-icons'
 
@@ -26,6 +27,7 @@ library.add(faHome)
 library.add(faTasks)
 library.add(faEnvelope)
 library.add(faChartArea)
+library.add(faWallet)
 library.add(faBaby)
 library.add(faCircleQuestion)
 

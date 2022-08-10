@@ -206,6 +206,9 @@ import BarChart from "@/components/BarChart.vue";
           content-start
         "
       >
+
+        <!-- ============ START OF CARDS ======================= -->
+
         <div class="w-1/2 lg:w-full">
           <div
             class="
@@ -220,7 +223,8 @@ import BarChart from "@/components/BarChart.vue";
             <div class="flex flex-col items-center">
               <div class="flex-shrink pr-4">
                 <div class="rounded-full p-3 bg-gray-300">
-                  <i class="fa fa-wallet fa-fw fa-inverse text-indigo-500"></i>
+                  <font-awesome-icon icon="fa-solid fa-wallet" class="fa-fw fa-inverse text-indigo-500"/>
+                  <!-- <i class="fa fa-wallet fa-fw fa-inverse text-indigo-500"></i> -->
                 </div>
               </div>
               <div class="flex-1">
