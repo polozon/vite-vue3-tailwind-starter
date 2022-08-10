@@ -374,7 +374,10 @@ import BarChart from "@/components/BarChart.vue";
                 <h5 class="font-bold text-black">Graph</h5>
               </div>
               <div class="p-5">
-                <BarChart height="200" />
+                
+                <!--   BARCHART -->
+                <BarChart height="200" :chart-data="myChartData" />
+
                 <!-- <div class="ct-chart ct-golden-section" id="chart1"></div> -->
               </div>
               <!--/Graph Card-->
@@ -477,6 +480,14 @@ import BarChart from "@/components/BarChart.vue";
 
 <script>
 export default {
+   data() {
+    return {
+      myChartData: {
+          labels: [ 'Vatten', 'Öl', 'Vin', 'Kaffe' ],
+          datasets: [ { data: [40, 60, 35, 80] } ]
+        }
+      }
+    },
     methods: {
       userLogout() {
         console.log("User logout");
