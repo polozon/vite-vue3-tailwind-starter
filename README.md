@@ -37,8 +37,7 @@ npm run serve
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/web2033/vite-vue3-tailwind-starter)
 
-220808:
-Jag gjorde en fork av repot. Ska använda [denna admin template](https://github.com/tailwindtoolbox/Minimal-Admin-Template)
+# My changes
 
-[Installerar fontawesome](https://fontawesome.com/docs/web/use-with/vue/).
-Det första kommandot (svg-core) lägger in `"@fortawesome/fontawesome-svg-core": "^6.1.2",` under dependencies i package.json
+Used HTML from [this page](https://github.com/tailwindtoolbox/Minimal-Admin-Template) and made it more Vue'ish. For learning purposes.
+Notes in Obsidian "Vue-app av Template"
