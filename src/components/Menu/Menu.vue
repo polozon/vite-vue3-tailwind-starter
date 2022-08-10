@@ -1,6 +1,6 @@
 <template>
     <div>
-        <slot :is-open="isOpen" />
+        <slot />
         [Open = {{isOpen}}]
     </div>
 </template>

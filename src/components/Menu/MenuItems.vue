@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div  v-if="$parent.isOpen">
         <slot />
     </div>
 </template>
