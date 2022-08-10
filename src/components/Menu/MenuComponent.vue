@@ -1,10 +1,10 @@
 <template>
     <div>
-        <Menu>
+        <Menu v-slot:default="slotProps">
             <MenuButton>
                 Options
             </MenuButton>
-            <MenuItems>
+            <MenuItems v-if="slotProps.isOpen">
                 <MenuItem>
                     Account Settings
                 </MenuItem>
