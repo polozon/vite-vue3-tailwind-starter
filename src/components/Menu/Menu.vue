@@ -1,5 +1,5 @@
 <template>
     <div>
-        MenuText
+        <slot />
     </div>
 </template>

@@ -1,3 +1,5 @@
 <template>
-    <div>mis</div>
+    <div>
+        <slot />
+    </div>
 </template>
