@@ -484,7 +484,14 @@ export default {
     return {
       myChartData: {
           labels: [ 'Vatten', 'Öl', 'Vin', 'Kaffe' ],
-          datasets: [ { data: [40, 60, 35, 80] } ]
+          datasets: [{ 
+            backgroundColor: [
+                'rgba(255, 0, 0, 0.5)',
+                'rgba(0, 255, 0, 0.5)',
+                'rgba(0, 0, 255, 0.5)',
+                'rgba(155, 155, 0, 0.5)'
+            ],
+            data: [40, 60, 35, 80] } ]
         }
       }
     },
