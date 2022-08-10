@@ -3,6 +3,8 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
 import AccountMenu from "@/components/AccountMenu.vue";
 import UserButton from "@/components/UserButton.vue";
 import BarChart from "@/components/BarChart.vue";
+import Switch from "@/components/Switch.vue";
+import Popover from "@/components/Popover.vue";
 </script>
 
 <template>
@@ -396,20 +398,20 @@ import BarChart from "@/components/BarChart.vue";
               <!--Graph Card-->
 
               <div class="border-b p-3">
-                <h5 class="font-bold text-black">Graph</h5>
+                <h5 class="font-bold text-black">A Switch..</h5>
               </div>
-              <div class="p-5">
-                <div class="ct-chart ct-golden-section" id="chart2"></div>
+              <div class="p-0">
+                <Switch />
               </div>
 
               <!--/Graph Card-->
 
               <!--Graph Card-->
               <div class="border-b p-3">
-                <h5 class="font-bold text-black">Graph</h5>
+                <h5 class="font-bold text-black">Popover</h5>
               </div>
-              <div class="p-5">
-                <div class="ct-chart ct-golden-section" id="chart3"></div>
+              <div class="relative p-5">
+                <Popover />
               </div>
 
               <!--/Graph Card-->
